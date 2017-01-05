@@ -1,0 +1,10 @@
+.main-nav>li> .active{
+	color: #fa4b2a;
+  background: none;
+  border-bottom: 3px solid #fa4b2a;
+}
+.main-nav>li>a:hover{
+	color: #fa4b2a;
+  background: none;
+  border-bottom: 3px solid #fa4b2a;
+}

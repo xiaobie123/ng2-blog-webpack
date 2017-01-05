@@ -1,0 +1,240 @@
+li {
+    list-style: none
+}
+.mod_playlist__show{
+	background-color: #fff;
+}
+.mod_playlist {
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 2em;
+}
+
+.mod_playlist__show {
+    margin: 0 -20px;
+    overflow: hidden;
+    zoom:1}
+
+.mod_playlist__item {
+    float: left;
+    width: 25%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.mod_playlist__box {
+    position: relative;
+    margin: 0 20px;
+    background-color: #f5f5f5
+}
+
+.mod_playlist__user {
+    position: relative;
+    height: 30px;
+    padding: 10px 0;
+    margin: 0 10px 0 50px
+}
+
+.mod_playlist__photo {
+    position: absolute;
+    left: -40px;
+    top: 10px;
+    width: 30px;
+    height: 30px
+}
+
+.mod_playlist__name {
+    float: left;
+    width: 100%;
+    margin-top: 3px;
+    font-size: 14px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.mod_playlist__cover {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    padding-top: 100%;
+    zoom:1;height: 0
+}
+
+.mod_playlist__cover .icon_pause_m,.mod_playlist__cover .icon_play_m {
+    position: absolute;
+    right: 10px;
+    bottom: 10px
+}
+
+.mod_playlist__title {
+    height: 48px;
+    padding: 5px 10px
+}
+
+.mod_playlist__title .mod_playlist__name {
+    margin-top: 0
+}
+
+.mod_playlist__title p {
+    overflow: hidden;
+    zoom:1}
+
+.mod_playlist__work {
+    float: left;
+    max-width: 74%;
+    _width: 74%;
+    font-size: 14px;
+    margin-right: 5px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+a.mod_playlist__work:hover {
+    color: #f04f43
+}
+
+.mod_playlist__record {
+    float: left;
+    font-size: 14px;
+    color: #999;
+    margin-right: 10px
+}
+
+.mod_playlist__cd {
+    position: relative;
+    margin: 0 20px
+}
+
+.mod_playlist__cd .mod_playlist__title {
+    padding: 5px 0
+}
+
+.mod_playlist__cd .mod_playlist__record {
+    margin-right: 6px
+}
+
+.mod_playlist__info {
+    display: -webkit-box;
+    -webkit-box-align: center
+}
+
+.mod_playlist__info .mod_playlist__work {
+    -webkit-box-flex: 1;
+    float: none;
+    display: block;
+    color: #999
+}
+
+.mod_playlist__info .mod_playlist__record {
+    float: none;
+    display: block;
+    margin-right: 0
+}
+
+@media only screen and (max-width: 767px) {
+    .mod_playlist {
+        padding-bottom:50px
+    }
+
+    .mod_playlist__show {
+        margin: 0 5px
+    }
+
+    .mod_playlist__box {
+        margin: 0 5px;
+        background-color: #fff
+    }
+
+    .mod_playlist__cd {
+        margin: 0 5px
+    }
+
+    .mod_playlist {
+        margin-bottom: 0;
+        overflow: hidden
+    }
+
+    .mod_playlist__item {
+        width: 50%
+    }
+
+    .mod_playlist__work {
+        max-width: 70%
+    }
+
+    .mod_playlist__title {
+        padding: 5px
+    }
+
+    .mod_playlist__record {
+        margin-right: 0;
+        font-size: 12px
+    }
+
+    .mod_playlist__record:first-child {
+        margin-right: 5px
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    a:hover .icon_play_m {
+        background-image:url(sprite/playlist.png?max_age=2592000&v=b4f85a8e550d7c3a41de9659481c8626);
+        background-position: 0 0
+    }
+
+    a:hover .black_mask {
+        filter: alpha(opacity=40);
+        opacity: .4
+    }
+
+    .mod_playlist__box:hover {
+        background-color: #f0f0f0
+    }
+}
+
+@media only screen and (min-width: 768px)and (max-width:1024px) {
+    .mod_playlist__title {
+        padding:5px
+    }
+
+    .mod_playlist__record {
+        margin-right: 0;
+        font-size: 12px
+    }
+
+    .mod_playlist__record:first-child {
+        margin-right: 5px
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .mod_playlist__show {
+        margin:0 -35px
+    }
+
+    .mod_playlist__box {
+        margin: 0 15px
+    }
+
+    .mod_playlist__cd {
+        margin: 0 35px
+    }
+}
+.play_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+.glyphicon-comment{
+	margin-left: 0 !important;
+}
+.glyphicon{
+	margin-right: 5px !important;
+}
