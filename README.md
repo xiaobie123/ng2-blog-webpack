@@ -39,6 +39,15 @@ npm build
 好了。说好的截图呢。
 
 来了
-
-
-
+1
+![](https://xiaobie123.github.io/ng2-blog-webpack/%E5%9B%BE%E7%89%87/1.gif)
+2
+![](https://xiaobie123.github.io/ng2-blog-webpack/%E5%9B%BE%E7%89%87/2.gif)
+3
+![](https://xiaobie123.github.io/ng2-blog-webpack/%E5%9B%BE%E7%89%87/3.gif)
+4
+![](https://xiaobie123.github.io/ng2-blog-webpack/%E5%9B%BE%E7%89%87/4.gif)
+5
+![](https://xiaobie123.github.io/ng2-blog-webpack/%E5%9B%BE%E7%89%87/5.gif)
+6
+![](https://xiaobie123.github.io/ng2-blog-webpack/%E5%9B%BE%E7%89%87/6.gif)
