@@ -13,9 +13,9 @@ export class userInformService {
                .get(`api/login?username=${username}&password=${password}`)
                .map((r: Response) => r.json() as user);
   }
-  register(username: string,password: string): Observable<user> {
+ /* register(username: string,password: string): Observable<user> {
     return this.http
                .post(`api/register`)
                .map((r: Response) => r.json() as user);
-  }
+  }*/
 }

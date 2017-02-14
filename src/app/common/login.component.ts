@@ -125,11 +125,11 @@ export class LoginComponent implements OnInit {
                      .subscribe(
                        (info:any) => this.getinfo(info));
 	}
-	_register(){
+	/*_register(){
 		this.userinform.register(this.user.username,this.user.password)
                      .subscribe(
                        (info:any) => this.info = info);
-	}
+	}*/
 	public toggled(open:boolean):void {//下拉
     console.log('Dropdown is now: ', open);
   }

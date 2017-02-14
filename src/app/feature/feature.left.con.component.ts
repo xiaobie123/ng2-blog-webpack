@@ -1,4 +1,7 @@
 import { Component,ElementRef,OnInit } from '@angular/core';
+
+
+declare var jQuery:any;
 @Component({
   selector: 'feature-left',
   template: `
